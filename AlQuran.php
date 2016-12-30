@@ -3,32 +3,32 @@
  {  
 	abstract public function Jenis();  
 	abstract public function Harga();  
- }  
-   
- class Rainbow extends AlQuran 
- {  
-    public function Jenis() 
+ }
+
+class Rainbow extends AlQuran 
+{  
+	public function Jenis() 
 	{  
 		return "Versi Quran Rainbow <br/>";  
-    }  
+	}  
              
 	public function Harga() 
 	{  
 		return "Harga AlQuran versi Rainbow Rp.70.000,-<br/>";  
-    } 
-}  
-   
- class Tajwid extends AlQuran 
- {  
-    public function Jenis() 
-    {  
-        return "Versi Tajwid<br/>";  
-    }  
+	} 
+}
+
+class Tajwid extends AlQuran 
+{  
+	public function Jenis() 
+	{  
+		return "Versi Tajwid<br/>";  
+	}  
              
 	public function Harga()
 	{  
-       	return "Harga AlQuran versi Rainbow Rp.90.000,-<br/>";  
-    }   
+    	return "Harga AlQuran versi Rainbow Rp.90.000,-<br/>";  
+	}   
 }
 
 $rainbow = new Rainbow;
