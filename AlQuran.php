@@ -2,7 +2,7 @@
  abstract class AlQuran 
  {  
 	abstract public function Jenis();  
-    abstract public function Harga();  
+	abstract public function Harga();  
  }  
    
  class Rainbow extends AlQuran 
@@ -14,7 +14,7 @@
              
 	public function Harga() 
 	{  
-        return "Harga AlQuran versi Rainbow Rp.70.000,-<br/>";  
+		return "Harga AlQuran versi Rainbow Rp.70.000,-<br/>";  
     } 
 }  
    
